@@ -26,3 +26,4 @@ print(f"{'Gốc':<10} | {'Bị Nhiễu':<10} | {'Sau khi Lọc':<10}")
 print("-" * 35)
 for g, n, s in zip(goc, tin_hieu_nhieu, tin_hieu_sach):
     print(f"{g:<10} | {n:<10.2f} | {s:<10.2f}")
+    print(f"{g:<10} | {n:<10.2f} | {s:<10.2f}")
